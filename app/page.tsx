@@ -3,8 +3,8 @@ import { Server, ChevronDown, Rocket } from 'lucide-react';
 
 export default function Home() {
   return (
-    {/* Deep Space Background with relative positioning for glowing orbs */}
     <div className="min-h-screen bg-[#030712] text-white font-sans relative overflow-hidden pb-20 selection:bg-purple-500 selection:text-white">
+      {/* Deep Space Background with relative positioning for glowing orbs */}
       
       {/* --- BACKGROUND GLOW EFFECTS (The secret to the design) --- */}
       <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-purple-700/30 rounded-full blur-[150px] pointer-events-none"></div>
